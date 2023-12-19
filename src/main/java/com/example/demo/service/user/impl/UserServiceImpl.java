@@ -12,7 +12,7 @@ import java.util.List;
 @Service
 public class UserServiceImpl implements IUserService {
 
-    @Autowired
+    //@Autowired
     private IUserMapper userMapper;
 
     @Override

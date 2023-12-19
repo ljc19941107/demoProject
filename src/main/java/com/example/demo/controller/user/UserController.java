@@ -24,7 +24,7 @@ import java.util.List;
 @RequestMapping("/user")
 public class UserController {
 
-    @Autowired
+    //@Autowired
     private IUserService userService;
 
     @RequestMapping(value = "getUser", method = RequestMethod.GET)

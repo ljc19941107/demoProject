@@ -2,6 +2,8 @@ package com.example.demo.bean.user;
 
 import lombok.Data;
 
+import java.util.Date;
+
 /**
  * @Description:
  * @Author: hspcadmin
@@ -9,4 +11,9 @@ import lombok.Data;
  **/
 @Data
 public class UserDO {
+    private Long id;
+
+    private String name;
+
+    private Date gmtCreate;
 }
